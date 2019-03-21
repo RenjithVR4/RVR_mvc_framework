@@ -1,0 +1,7 @@
+CREATE DATABASE mytodo;
+ use mytodo;
+ CREATE TABLE users (
+	id INT NOT NULL AUTO_INCREMENT, 
+	name VARCHAR(155) NOT NULL, 
+	PRIMARY KEY(id)
+);
